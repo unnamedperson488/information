@@ -1,7 +1,3 @@
----
-title: My Site
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,6 +16,8 @@ title: My Site
             --terminal-text: #00ff00;
             --gradient: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
             --hero-gradient: linear-gradient(135deg, #00ff9f 0%, #ea5358 100%);
+            --card-shadow: 0 4px 15px rgba(0, 255, 159, 0.2);
+            --transition: all 0.3s ease;
         }
 
         * {
@@ -44,7 +42,7 @@ title: My Site
             background-color: var(--secondary);
             display: flex;
             justify-content: center;
-            padding: 1.5rem;
+            padding: 1rem;
             z-index: 10;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
         }
@@ -52,26 +50,25 @@ title: My Site
         nav button {
             background-color: transparent;
             color: var(--text);
-            border: 2px solid var(--accent);
+            border: 1px solid var(--accent);
             padding: 0.75rem 1.5rem;
-            margin: 0 1rem;
+            margin: 0 0.5rem;
             cursor: pointer;
-            transition: all 0.4s ease;
-            border-radius: 8px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            transition: var(--transition);
+            border-radius: 50px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
         }
 
         nav button:hover {
             background-color: var(--accent);
             color: var(--bg);
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0, 255, 159, 0.4);
+            transform: scale(1.05);
+            box-shadow: var(--card-shadow);
         }
 
         section {
-            padding: 8rem 2rem 4rem;
+            padding: 8rem 1rem 4rem;
             max-width: 1200px;
             margin: 0 auto;
             opacity: 0;
@@ -87,7 +84,7 @@ title: My Site
         h1, h2 {
             font-weight: 700;
             margin-bottom: 1.5rem;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
             text-align: center;
         }
 
@@ -127,8 +124,26 @@ title: My Site
             border-radius: 20px;
             text-align: center;
             max-width: 1000px;
-            box-shadow: 0 10px 30px rgba(0, 255, 159, 0.3);
+            box-shadow: var(--card-shadow);
             animation: pulse 2s infinite;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 10%, transparent 40%);
+            animation: parallax 10s linear infinite;
+        }
+
+        @keyframes parallax {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(50%, 50%); }
         }
 
         @keyframes pulse {
@@ -153,14 +168,15 @@ title: My Site
             border: none;
             padding: 1rem 2rem;
             cursor: pointer;
-            transition: all 0.4s ease;
-            border-radius: 8px;
+            transition: var(--transition);
+            border-radius: 50px;
             font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
             margin-top: 2rem;
             display: inline-block;
             text-decoration: none;
+            box-shadow: var(--card-shadow);
         }
 
         .cta-button:hover {
@@ -171,10 +187,6 @@ title: My Site
         .intro-text {
             max-width: 900px;
             text-align: center;
-        }
-
-        .intro-text p {
-            margin-bottom: 1.5rem;
         }
 
         .placeholders {
@@ -189,7 +201,7 @@ title: My Site
             background-color: var(--secondary);
             padding: 2rem;
             border-radius: 12px;
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+            box-shadow: var(--card-shadow);
             text-align: center;
             transition: transform 0.3s ease;
         }
@@ -206,7 +218,7 @@ title: My Site
         .features-list {
             max-width: 800px;
             margin: 2rem auto;
-            text-align: left;
+            text-align: center;
         }
 
         .features-list ul {
@@ -215,15 +227,8 @@ title: My Site
 
         .features-list li {
             margin-bottom: 1rem;
-            padding-left: 2rem;
-            position: relative;
-        }
-
-        .features-list li::before {
-            content: '→';
-            position: absolute;
-            left: 0;
-            color: var(--accent);
+            padding-left: 0;
+            font-size: 1.1rem;
         }
 
         .testimonials {
@@ -232,14 +237,17 @@ title: My Site
             display: flex;
             flex-direction: column;
             gap: 2rem;
+            align-items: center;
         }
 
         .testimonial-card {
             background-color: var(--secondary);
             padding: 2rem;
             border-radius: 12px;
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+            box-shadow: var(--card-shadow);
             text-align: center;
+            max-width: 600px;
+            width: 100%;
         }
 
         .testimonial-card p {
@@ -270,7 +278,7 @@ title: My Site
             background: var(--background);
             position: relative;
             z-index: 1;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            box-shadow: var(--card-shadow);
         }
 
         .social-card::after {
@@ -348,7 +356,7 @@ title: My Site
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 2.5rem;
+            gap: 2rem;
             max-width: 700px;
             margin: 0 auto;
         }
@@ -398,6 +406,7 @@ title: My Site
             font-size: 1rem;
             line-height: 1.5;
             margin-top: -1px;
+            text-align: center;
         }
 
         .discord-container:hover .dropdown {
@@ -412,6 +421,11 @@ title: My Site
         .dropdown ul {
             list-style: none;
             margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .dropdown li {
+            margin-bottom: 0.5rem;
         }
 
         .dropdown li::before {
@@ -512,35 +526,14 @@ title: My Site
                 grid-template-columns: 1fr;
             }
         }
-
-        /* Additional Uiverse.io Component: Example Neon Button for Navigation */
-        .neon-button {
-            background-color: transparent;
-            color: var(--text);
-            border: 2px solid var(--accent);
-            padding: 0.75rem 1.5rem;
-            margin: 0 1rem;
-            cursor: pointer;
-            transition: all 0.4s ease;
-            border-radius: 8px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            box-shadow: 0 0 10px var(--accent);
-        }
-
-        .neon-button:hover {
-            box-shadow: 0 0 20px var(--accent), 0 0 30px var(--accent);
-            transform: translateY(-5px);
-        }
     </style>
 </head>
 <body>
     <nav>
-        <button class="neon-button" onclick="showSection('home')">Home</button>
-        <button class="neon-button" onclick="showSection('socials')">Socials</button>
-        <button class="neon-button" onclick="showSection('community')">Community</button>
-        <button class="neon-button" onclick="showSection('support')">Support</button>
+        <button onclick="showSection('home')">Home</button>
+        <button onclick="showSection('socials')">Socials</button>
+        <button onclick="showSection('community')">Community</button>
+        <button onclick="showSection('support')">Support</button>
     </nav>
 
     <section id="home" class="active">
@@ -552,8 +545,6 @@ title: My Site
             </div>
             <div class="intro-text">
                 <p>A clean, modern hub for connecting, sharing, and supporting in a digital world. Whether you're here for discussions, content creation, or just to connect, we've got something for everyone.</p>
-                <p>Our platform is built with passion and designed to foster meaningful interactions and growth. We offer a variety of resources, events, and opportunities to engage with like-minded individuals.</p>
-                <p>Explore our latest projects, join ongoing discussions, and contribute to our ever-growing community. With regular updates and user feedback, we strive to make this space better every day.</p>
             </div>
             <div class="features-list">
                 <h2>Key Features</h2>
@@ -681,8 +672,6 @@ title: My Site
                         <li>Active discussions</li>
                         <li>Events and giveaways</li>
                         <li>Support channels</li>
-                        <li>Exclusive member roles</li>
-                        <li>Voice chat rooms</li>
                     </ul>
                     <a href="https://discord.gg/server1" target="_blank" class="join-button">Join TheInnerMinds</a>
                 </div>
@@ -695,22 +684,8 @@ title: My Site
                         <li>Gaming sessions</li>
                         <li>Creative sharing</li>
                         <li>Moderated chats</li>
-                        <li>Tech reviews</li>
-                        <li>Haul unboxings</li>
                     </ul>
-                    <a href="https://discord.gg/rPdHkWu8" target="_blank" class="join-button">Join EuroThrottle TECHHAULS</a>
-                </div>
-            </div>
-            <div class="discord-container">
-                <button class="discord-button">Additional Server 1</button>
-                <div class="dropdown">
-                    <p>Features:</p>
-                    <ul>
-                        <li>Community building</li>
-                        <li>Collaboration projects</li>
-                        <li>Feedback channels</li>
-                    </ul>
-                    <a href="https://discord.gg/server3" target="_blank" class="join-button">Join Additional Server 1</a>
+                    <a href="https://discord.gg/server2" target="_blank" class="join-button">Join EuroThrottle TECHHAULS</a>
                 </div>
             </div>
         </div>
@@ -718,7 +693,7 @@ title: My Site
 
     <section id="support" class="support-section">
         <h2>Support</h2>
-        <p>Help sustain our community and content creation by contributing through your preferred method. Your support enables us to host events, create more content, maintain our platforms, and expand our reach. We accept one-time donations via the following methods. Every contribution, big or small, makes a huge difference and is greatly appreciated! If you have questions or want to contribute in other ways, reach out via our community channels.</p>
+        <p>Help sustain our community and content creation by contributing through your preferred method. Your support enables us to host events, create more content, maintain our platforms, and expand our reach. Every contribution, big or small, makes a huge difference and is greatly appreciated!</p>
         <div class="support-buttons">
             <a href="https://paypal.me/your" target="_blank"><button><i class="fab fa-paypal"></i> PayPal</button></a>
             <a href="https://cash.app/$your" target="_blank"><button><i class="fas fa-dollar-sign"></i> CashApp</button></a>
