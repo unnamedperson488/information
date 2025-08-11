@@ -678,13 +678,15 @@ title: My Site
                 <div class="dropdown">
                     <p>Features:</p>
                     <ul>
-                        <li>Active discussions</li>
+                        <li>Helping disscussions</li>
                         <li>Events and giveaways</li>
-                        <li>Support channels</li>
+                        <li>Support channels for anything ethical</li>
                         <li>Exclusive member roles</li>
                         <li>Voice chat rooms</li>
+                        <li>Daily VC with active members<li>
+                        <li>Colaboration with other creators to an extent<li>
                     </ul>
-                    <a href="https://discord.gg/server1" target="_blank" class="join-button">Join TheInnerMinds</a>
+                    <a href="https://discord.gg/bSBbNErt" target="_blank" class="join-button">Join TheInnerMinds today</a>
                 </div>
             </div>
             <div class="discord-container">
@@ -692,13 +694,14 @@ title: My Site
                 <div class="dropdown">
                     <p>Features:</p>
                     <ul>
-                        <li>Gaming sessions</li>
-                        <li>Creative sharing</li>
+                        <li>Special giveaways</li>
+                        <li>GATED COMMUNITY</li>
                         <li>Moderated chats</li>
                         <li>Tech reviews</li>
-                        <li>Haul unboxings</li>
+                        <li>Chat GPT and other AI jailbreaks</li>
+                        <li>Premimum section<li>
                     </ul>
-                    <a href="https://discord.gg/server2" target="_blank" class="join-button">Join EuroThrottle TECHHAULS</a>
+                    <a href="https://discord.gg/rPdHkWu8">Join EuroThrottle TECHHAULS today</a>
                 </div>
             </div>
             <div class="discord-container">
