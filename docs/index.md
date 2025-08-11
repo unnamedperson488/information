@@ -698,7 +698,7 @@ title: My Site
                         <li>Tech reviews</li>
                         <li>Haul unboxings</li>
                     </ul>
-                    <a href="https://discord.gg/server2" target="_blank" class="join-button">Join EuroThrottle TECHHAULS</a>
+                    <a href="https://discord.gg/rPdHkWu8" target="_blank" class="join-button">Join EuroThrottle TECHHAULS</a>
                 </div>
             </div>
             <div class="discord-container">
