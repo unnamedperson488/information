@@ -546,7 +546,7 @@ title: My Site
     <section id="home" class="active">
         <div class="home-content">
             <div class="hero">
-                <h1 class="animated">Welcome to My Site</h1>
+                <h1 class="animated">Welcome to TheInnerMinds</h1>
                 <p>Discover a vibrant digital space dedicated to creativity, community, and connection. Join us in exploring innovative ideas and sharing experiences.</p>
                 <a href="#socials" class="cta-button" onclick="showSection('socials')">Connect Now</a>
             </div>
@@ -569,27 +569,27 @@ title: My Site
             <div class="placeholders">
                 <div class="placeholder-card">
                     <h3>About Us</h3>
-                    <p>Detailed placeholder information about the site, its mission, vision for the future, and the team behind it.</p>
+                    <p>We are hoping to be a big community to one day be the biggest with trusted people that you can ask for help from and other people that would be willing to give stuff away and not relying on us the moderation team for everything.</p>
                 </div>
                 <div class="placeholder-card">
                     <h3>Latest Updates</h3>
-                    <p>Placeholder for recent news, updates, announcements, and changelog to keep you informed.</p>
+                    <p>Website launched same with the new discord server.</p>
                 </div>
                 <div class="placeholder-card">
                     <h3>Featured Content</h3>
-                    <p>Placeholder for highlighted features, videos, articles, or user-generated content curated just for you.</p>
+                    <p>Colaborative community working together to make huge projects and videos when colaboration hits, and live videos and defcon events.</p>
                 </div>
                 <div class="placeholder-card">
                     <h3>Upcoming Events</h3>
-                    <p>Placeholder for future events, webinars, community meetups, and special occasions.</p>
+                    <p>Partnering live with other creators and shoutouts on all platforms and the support role in the discord server.</p>
                 </div>
                 <div class="placeholder-card">
                     <h3>Our Partners</h3>
-                    <p>Placeholder for information about our collaborators, sponsors, and partner organizations.</p>
+                    <p>PEuroThrottle on tiktok helping to make what this place is today and for all of the support and help and the information that it needed.</p>
                 </div>
                 <div class="placeholder-card">
                     <h3>Get Involved</h3>
-                    <p>Placeholder for ways to contribute, volunteer, or participate in our community initiatives.</p>
+                    <p>Follow the social media and join the discord to help contribute and join for future giveaways and if your kind enough to help out even more you can donate.</p>
                 </div>
             </div>
             <div class="testimonials">
