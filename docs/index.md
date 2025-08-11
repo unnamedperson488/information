@@ -595,8 +595,8 @@ title: My Site
             <div class="testimonials">
                 <h2>What Our Community Says</h2>
                 <div class="testimonial-card">
-                    <p>"This site has transformed how I connect with like-minded individuals. Highly recommended!"</p>
-                    <div class="author">- Community Member A</div>
+                    <p>"This site has helped me learn cybersecurity and how to use it correctly"</p>
+                    <div class="author">- CrazyDrivenMANN</div>
                 </div>
                 <div class="testimonial-card">
                     <p>"Amazing content and supportive community. I've learned so much here."</p>
