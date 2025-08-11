@@ -546,7 +546,7 @@ title: My Site
     <section id="home" class="active">
         <div class="home-content">
             <div class="hero">
-                <h1 class="animated">Welcome to TheInnerMinds</h1>
+                <h1 class="animated">Welcome to My Site</h1>
                 <p>Discover a vibrant digital space dedicated to creativity, community, and connection. Join us in exploring innovative ideas and sharing experiences.</p>
                 <a href="#socials" class="cta-button" onclick="showSection('socials')">Connect Now</a>
             </div>
@@ -569,34 +569,34 @@ title: My Site
             <div class="placeholders">
                 <div class="placeholder-card">
                     <h3>About Us</h3>
-                    <p>We are hoping to be a big community to one day be the biggest with trusted people that you can ask for help from and other people that would be willing to give stuff away and not relying on us the moderation team for everything.</p>
+                    <p>Detailed placeholder information about the site, its mission, vision for the future, and the team behind it.</p>
                 </div>
                 <div class="placeholder-card">
                     <h3>Latest Updates</h3>
-                    <p>Website launched, discord launched, and tiktoks coming soon.</p>
+                    <p>Placeholder for recent news, updates, announcements, and changelog to keep you informed.</p>
                 </div>
                 <div class="placeholder-card">
                     <h3>Featured Content</h3>
-                    <p>Colaborative community working together to make huge projects and videos when colaboration hits, and live videos and defcon events.</p>
+                    <p>Placeholder for highlighted features, videos, articles, or user-generated content curated just for you.</p>
                 </div>
                 <div class="placeholder-card">
                     <h3>Upcoming Events</h3>
-                    <p>Partnering live with other creators and shoutouts on all platforms and the support role in the discord server.</p>
+                    <p>Placeholder for future events, webinars, community meetups, and special occasions.</p>
                 </div>
                 <div class="placeholder-card">
                     <h3>Our Partners</h3>
-                    <p>PEuroThrottle on tiktok helping to make what this place is today and for all of the support and help and the information that it needed.</p>
+                    <p>Placeholder for information about our collaborators, sponsors, and partner organizations.</p>
                 </div>
                 <div class="placeholder-card">
                     <h3>Get Involved</h3>
-                    <p>Follow the social media and join the discord to help contribute and join for future giveaways and if your kind enough to help out even more you can donate.</p>
+                    <p>Placeholder for ways to contribute, volunteer, or participate in our community initiatives.</p>
                 </div>
             </div>
             <div class="testimonials">
                 <h2>What Our Community Says</h2>
                 <div class="testimonial-card">
-                    <p>"This site has helped me learn cybersecurity and how to use it correctly"</p>
-                    <div class="author">- CrazyDrivenMANN</div>
+                    <p>"This site has transformed how I connect with like-minded individuals. Highly recommended!"</p>
+                    <div class="author">- Community Member A</div>
                 </div>
                 <div class="testimonial-card">
                     <p>"Amazing content and supportive community. I've learned so much here."</p>
@@ -678,14 +678,13 @@ title: My Site
                 <div class="dropdown">
                     <p>Features:</p>
                     <ul>
-                        <li>Helping disscussions</li>
+                        <li>Active discussions</li>
                         <li>Events and giveaways</li>
-                        <li>Support channels for anything ethical</li>
+                        <li>Support channels</li>
                         <li>Exclusive member roles</li>
                         <li>Voice chat rooms</li>
-                        <li>Daily VC with active members<li>
                     </ul>
-                    <a href="https://discord.gg/bSBbNErt" target="_blank" class="join-button">Join TheInnerMinds today</a>
+                    <a href="https://discord.gg/server1" target="_blank" class="join-button">Join TheInnerMinds</a>
                 </div>
             </div>
             <div class="discord-container">
@@ -693,14 +692,13 @@ title: My Site
                 <div class="dropdown">
                     <p>Features:</p>
                     <ul>
-                        <li>Special giveaways</li>
-                        <li>GATED COMMUNITY</li>
+                        <li>Gaming sessions</li>
+                        <li>Creative sharing</li>
                         <li>Moderated chats</li>
                         <li>Tech reviews</li>
-                        <li>Chat GPT and other AI jailbreaks</li>
-                        <li>Premimum section<li>
+                        <li>Haul unboxings</li>
                     </ul>
-                    <a href="https://discord.gg/rPdHkWu8">Join EuroThrottle TECHHAULS today</a>
+                    <a href="https://discord.gg/server2" target="_blank" class="join-button">Join EuroThrottle TECHHAULS</a>
                 </div>
             </div>
             <div class="discord-container">
