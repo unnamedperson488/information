@@ -684,7 +684,6 @@ title: My Site
                         <li>Exclusive member roles</li>
                         <li>Voice chat rooms</li>
                         <li>Daily VC with active members<li>
-                        <li>Colaboration with other creators to an extent<li>
                     </ul>
                     <a href="https://discord.gg/bSBbNErt" target="_blank" class="join-button">Join TheInnerMinds today</a>
                 </div>
