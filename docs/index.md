@@ -573,9 +573,9 @@ title: My Site
                 </div>
                 <div class="placeholder-card">
                     <h3>Latest Updates</h3>
-                    <p>-Website launched.</p>
-                    <p>-Discord launced to the public<p>
-                    <p>-TikTok videos coming soon<p>
+                    <p>Website launched.</p>
+                    <p>Discord launced to the public<p>
+                    <p>TikTok videos coming soon<p>
                 </div>
                 <div class="placeholder-card">
                     <h3>Featured Content</h3>
